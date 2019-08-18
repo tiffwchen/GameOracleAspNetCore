@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using GameOracle.Models;
+using GameOracle.ViewModels;
 
 namespace GameOracle.Controllers
 {
@@ -17,9 +18,13 @@ namespace GameOracle.Controllers
         }
         public IActionResult Index()
         {
-            ViewBag.Title = "List of Games";
-            var games = _gameRepository.GetAllGames().OrderBy(g => g.Name);
-            return View(games);
+            var homeViewModel = new HomeViewModel()
+            {
+                Title = "Home Page",
+                Games = _gameRepository.GetAllGames().OrderBy(g => g.Name)
+        };
+
+            return View(homeViewModel);
         }
     }
 }
