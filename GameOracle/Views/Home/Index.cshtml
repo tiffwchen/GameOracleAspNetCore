@@ -1,14 +1,14 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = Model.Title;
 }
-@model  IEnumerable<GameOracle.Models.Game>
+@model  GameOracle.ViewModels.HomeViewModel
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 <div>
-    @foreach (var game in Model)
+    @foreach (var game in Model.Games)
     {
         <h3>@game.Name</h3>
         <h2>@game.Id</h2>
