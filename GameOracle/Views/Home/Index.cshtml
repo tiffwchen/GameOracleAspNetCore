@@ -1,16 +1,10 @@
 ﻿@{
     ViewData["Title"] = Model.Title;
 }
-@model  GameOracle.ViewModels.HomeViewModel
+@model GameOracle.ViewModels.HomeViewModel
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome to GameOracle</h1>
+    <p>Spend more time playing games.</p>
 </div>
-<div>
-    @foreach (var game in Model.Games)
-    {
-        <h3>@game.Name</h3>
-        <h2>@game.Id</h2>
-    }
-</div>
+

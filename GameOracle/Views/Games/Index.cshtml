@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = Model.Title;
+}
+@model GameOracle.ViewModels.GamesViewModel
+
+<div class="text-center">
+    <h1 class="display-4">Your Games</h1>
+</div>
+<div>
+    @foreach (var game in Model.Games)
+    {
+        <h3>@game.Name</h3>
+        <h2>@game.Id</h2>
+    }
+</div>

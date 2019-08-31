@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace GameOracle.ViewModels
 {
-    public class HomeViewModel
+    public class GamesViewModel
     {
         public string Title { get; set; }
+        public IEnumerable<Game> Games { get; set; }
     }
 }
