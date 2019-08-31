@@ -28,3 +28,4 @@ C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\net
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.dll
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.pdb
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.csproj.CopyComplete
+C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\Razor\Views\Games\Index.g.cshtml.cs
