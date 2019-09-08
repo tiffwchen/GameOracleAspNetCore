@@ -1,9 +1,3 @@
-C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.csproj.CoreCompileInputs.cache
-C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.AssemblyInfoInputs.cache
-C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.AssemblyInfo.cs
-C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.csprojAssemblyReference.cache
-C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.RazorAssemblyInfo.cache
-C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.RazorAssemblyInfo.cs
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\bin\Debug\netcoreapp2.2\GameOracle.deps.json
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\bin\Debug\netcoreapp2.2\GameOracle.runtimeconfig.json
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\bin\Debug\netcoreapp2.2\GameOracle.runtimeconfig.dev.json
@@ -11,9 +5,16 @@ C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\bin\Debug\net
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\bin\Debug\netcoreapp2.2\GameOracle.pdb
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\bin\Debug\netcoreapp2.2\GameOracle.Views.dll
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\bin\Debug\netcoreapp2.2\GameOracle.Views.pdb
+C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.csprojAssemblyReference.cache
+C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.csproj.CoreCompileInputs.cache
+C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.RazorAssemblyInfo.cache
+C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.RazorAssemblyInfo.cs
+C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.AssemblyInfoInputs.cache
+C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.AssemblyInfo.cs
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.TagHelpers.input.cache
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.TagHelpers.output.cache
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.RazorCoreGenerate.cache
+C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\Razor\Views\Games\Index.g.cshtml.cs
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
@@ -28,4 +29,4 @@ C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\net
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.dll
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.pdb
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\GameOracle.csproj.CopyComplete
-C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\Razor\Views\Games\Index.g.cshtml.cs
+C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\Razor\Views\Games\Details.g.cshtml.cs
