@@ -28,5 +28,15 @@ namespace GameOracle.Controllers
 
             return View(gamesViewModel);
         }
+
+        // GET: /Games/Details/{id}
+        public IActionResult Details(int id)
+        {
+            var game = _gameRepository.GetGameById(id);
+            if (game == null){
+                return NotFound();
+            }
+            return View(game);
+        }
     }
 }

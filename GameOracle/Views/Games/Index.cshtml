@@ -9,7 +9,9 @@
 <div>
     @foreach (var game in Model.Games)
     {
-        <h3>@game.Name</h3>
+        <h3>
+            <a asp-controller="Games" asp-action="Details" asp-route-id="@game.Id">@game.Name</a>
+        </h3>
         <h2>@game.Id</h2>
     }
 </div>
