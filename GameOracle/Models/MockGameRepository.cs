@@ -24,9 +24,9 @@ namespace GameOracle.Models
 
             _games = new List<Game>
             {
-                new Game(1, "Settlers of Catan"),
-                new Game(2, "Scythe"),
-                new Game(3, "WingSpan")
+                new Game("Scythe", 1, 5),
+                new Game("Catan", 2, 5),
+                new Game("Carcasonne", 2, 5)
             };
         }
 

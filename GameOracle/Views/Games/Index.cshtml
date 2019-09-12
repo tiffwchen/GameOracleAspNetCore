@@ -12,6 +12,8 @@
         <h3>
             <a asp-controller="Games" asp-action="Details" asp-route-id="@game.Id">@game.Name</a>
         </h3>
-        <h2>@game.Id</h2>
+        <div>The minimum number of players for this game is: @game.MinPlayers</div>
+        <div>The maximum number of players for this game is: @game.MaxPlayers</div>
+
     }
 </div>
