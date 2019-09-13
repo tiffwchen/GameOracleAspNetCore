@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using GameOracle.Models;
 using GameOracle.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GameOracle.Controllers
