@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BoardGamer.BoardGameGeek.BoardGameGeekXmlApi2;
 using GameOracle.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -38,6 +39,7 @@ namespace GameOracle
 
             //services.AddTransient<IGameRepository, MockGameRepository>();
             services.AddTransient<IGameRepository, GameRepository>();
+            services.AddHttpClient<IBoardGameGeekXmlApi2Client, BoardGameGeekXmlApi2Client>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

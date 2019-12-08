@@ -38,3 +38,4 @@ C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\net
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
 C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Tiffany.Chen\Repositories\GameOracleAspNetCore\GameOracle\obj\Debug\netcoreapp2.2\Razor\Views\Games\TestAPIAsync.g.cshtml.cs

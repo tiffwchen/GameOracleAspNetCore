@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BoardGamer.BoardGameGeek.BoardGameGeekXmlApi2;
 using GameOracle.Models;
 using GameOracle.ViewModels;
 using Microsoft.AspNetCore.Authorization;
@@ -12,10 +13,13 @@ namespace GameOracle.Controllers
     public class GamesController : Controller
     {
         private readonly IGameRepository _gameRepository;
+        private readonly IBoardGameGeekXmlApi2Client _bgg;
 
-        public GamesController(IGameRepository gameRepository)
+
+        public GamesController(IGameRepository gameRepository, IBoardGameGeekXmlApi2Client bggClient)
         {
             _gameRepository = gameRepository;
+            _bgg = bggClient;
         }
 
         // GET: /Games/
@@ -38,6 +42,16 @@ namespace GameOracle.Controllers
                 return NotFound();
             }
             return View(game);
+        }
+
+        // GET: /Games/TestAPIAsync
+        public async Task<IActionResult> TestAPIAsync()
+        {
+            ThingRequest request = new ThingRequest(new[] { 161936 });
+            ThingResponse response = await _bgg.GetThingAsync(request);
+            // not sure that this will work
+            ThingResponse.Item pandemicLegacySeason1 = response.Result[0];
+            return View(pandemicLegacySeason1);
         }
     }
 }
